@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -o displayTest displayTest.cpp Display.cpp Chip8Emulator.cpp OpcodeHandlers.cpp Binding.cpp Keyboard.cpp --std=c++0x -lSDL2

@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -o chip8inline chip8inline.cpp Chip8Emulator.cpp Display.cpp Binding.cpp OpcodeHandlers.cpp --std=c++0x -lSDL2
+

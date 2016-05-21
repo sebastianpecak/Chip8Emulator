@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -o chip8emu-linux main.cpp Chip8Emulator.cpp OpcodeHandlers.cpp --std=c++0x -lSDL2
